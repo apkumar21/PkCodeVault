@@ -1,0 +1,9 @@
+person:
+  !Person
+  name: test
+  age: 30
+  #phone: 67878767
+  #if we add any addition fields like phone fields . this will throw an error since we have not defined the field in constructor
+  #TypeError: Person.__init__() got an unexpected keyword argument 'phone'
+  
+ 
