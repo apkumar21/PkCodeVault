@@ -1,0 +1,45 @@
+#
+
+git remote 
+
+git remote -v -- gives the origin linked  complte url
+
+git push -u origin feature
+
+git clone <clone url>
+
+git status
+
+git add .
+
+git commit -m "comment"
+
+
+git push  or git push origin 
+
+git pull (git fetch, git merge) --> get latest from the remote branch
+
+git fetch --> retrive the changes from remote but does not merge to local repo
+
+git diff --> see diff between local and remote 
+
+
+-- merge strategies
+  Fast forward merge
+
+  git merge feature
+
+  git rebase main
+
+
+---Git ammend--
+
+git commit --amend
+
+--Git reset--
+
+git reset --soft head~2
+
+git reset --mixed head~1
+
+git cherry-pick <commit id>
